@@ -1,0 +1,59 @@
+.imagehold img {
+    opacity: 0.3;
+}
+
+.imagehold:hover {
+    cursor: pointer;
+}
+
+.imagehold:hover img {
+
+    opacity: 1;
+}
+
+.imagehold .rewardcoins {
+
+    display: block;
+    position: relative;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 12px;
+    color: black;
+    font-size: 3em;
+    text-align: center;
+
+    
+
+}
+
+.rewardcoins span {
+    
+    color: orange;
+
+}
+
+.titlePers {
+    color: white;
+    font-size: 4em;
+    margin-top: 30%;
+    margin-left: 25%;
+}
+
+.imagehold:hover .titlePers {
+    
+    font-size: 3em;
+    margin-top: 75%;
+    margin-left: 30%;
+}
+
+.imagehold:hover .rewardcoins {
+
+    visibility: hidden;
+
+}
+
+.imgFlo {
+    float: right;
+}
